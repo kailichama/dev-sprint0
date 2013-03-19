@@ -59,8 +59,11 @@ def arc(t, r, angle):
     polyline(t, n, step_length, step_angle)
     rt(t, step_angle/2)
 
-arc(bob, 20, 180) #can draw an arc of any angle! :D   
+#arc(bob, 20, 180) #can draw an arc of any angle! :D   
 
+def circle(t, r):
+    arc(t, r, 360)
+circle(bob, 10)
 
 #def circle(t, r):
  #   arc (t, r, 360)
